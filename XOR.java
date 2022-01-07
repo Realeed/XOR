@@ -4,9 +4,7 @@ public class XOR {
         int num = array[0];
         for (int i = 1; i < array.length; i++) {
             num = num^array[i];
-            if (i == array.length - 1) {
-                System.out.println(num);
-            }
         }
+        System.out.println(num);
     }
 }
